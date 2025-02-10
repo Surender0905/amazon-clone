@@ -71,6 +71,9 @@ body {
         @apply bg-background text-foreground;
     }
 }
+.h2-bold {
+    @apply font-bold text-lg lg:text-xl;
+}
 
 @layer utilities {
     .web-page-content p {
