@@ -9,7 +9,6 @@ import NextAuth, { type DefaultSession } from "next-auth";
 import authConfig from "./auth.config";
 
 declare module "next-auth" {
-    // eslint-disable-next-line no-unused-vars
     interface Session {
         user: {
             role: string;
